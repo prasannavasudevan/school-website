@@ -1,0 +1,271 @@
+body{
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+     position: sticky;
+     top: 10px;
+     background-color: #EDE6FF;
+     color: black;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 25px 20px;
+     margin: 25px;
+     margin-top: -100px;
+     z-index: 100;
+     border-radius: 20px;
+}
+
+.school-name{
+      font-size: 20px;
+      font-weight: bold;
+      margin-left: 30px;
+}
+
+.nav-link{
+      margin-right: 50px;
+}
+
+.nav-link a{
+      color: black;
+      text-decoration: none;
+      padding: 0 20px;
+      font-size: 18px;
+
+}
+
+.nav-link a:hover{
+      background-color: black;
+      color: #fff;
+      border-radius: 10px;
+}
+
+
+/*The Main Img */
+.mainImg{
+    background-image: url('./img.jpg');
+    position: relative;
+    width: 100%;
+    height: 110vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.mainImg::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+/*ENDS HERE*/
+
+/*Content Starts*/
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #0077b6;
+}
+
+.content span{
+    color: white;
+}
+
+.content h2{
+    font-size: 20px;
+}
+
+.content h1{
+    font-size: 80px;
+}
+
+/*Ends here*/
+
+.container{
+    background-color: #0077b6;
+       color: white;
+       padding: 100px;              
+}
+
+.quote{
+      width: 30%;
+
+}
+
+.para{
+     width:60%;
+     float: right;
+     margin-top: -135px;
+     font-size: 20px;
+}
+
+.move{
+      padding: 20px 0px;
+      background-color: #333;
+      color: white;
+      margin-top: 3px;
+}
+
+
+/*Card section*/
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    background-color: antiquewhite;
+}
+
+.card{
+    margin: 20px;
+}
+
+.card-container h3{
+    text-align: center;
+}
+
+
+.schools{
+    text-align: center;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 40px 0;
+}
+
+/*Ends Here*/
+
+
+.about{
+      color: white;
+      padding: 100px 60px;
+      background-color: #FF8A8A
+}
+
+.message{
+      width:35%;
+      background-color: #e3be74;
+      padding: 20px 20px;
+      margin-left: 150px;
+      margin-top: 100px;
+}
+
+.paraTwo{
+      font-size: 25px; 
+      line-height: 30px;
+}
+
+.aboutBtn{
+      float: right;
+      margin-top: -14rem;
+      margin-right: 180px;
+      font-size: 30px;
+      font-weight: bold;
+      padding: 10px 20px;
+      border: none;
+      color: white;
+      background-color: #12b8ce;
+}
+
+.aboutBtn:hover {
+      color: #12b8ce;
+      background-color: white;
+      transition: ease-in-out 0.4s;
+}
+
+body.contactus{
+    padding: 0;
+    margin: 0;
+}
+
+footer.contact{
+      background-color: #4158A6;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+  }
+  
+  .footer-container {
+      max-width: 1200px;
+      margin: 100px 0;
+      padding: 0 20px;
+  }
+  
+  .footer-section {
+      margin: 20px 0;
+      
+  }
+  
+  .footer-section ul {
+      list-style: none;
+      padding: 0;
+  }
+
+  .footer-section ul li {
+      font-size: 16px;
+      margin: 15px 0;
+      font-size: 18px;
+  }
+
+body.login{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container{
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    color: white;
+    font-family: 'arial';
+}
+
+input{
+    margin: 10px 0px;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 15px;
+}
+
+.btn{
+    margin: 10px 0px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: black;
+    cursor: pointer;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+  
